@@ -41,7 +41,9 @@ Existem 4 tipos:
 
 * **git diff --staged**: Apresenta no terminal as linhas que foram alteradas de como era antes e como está atualmente de um arquivo do estado "staged";
 
-* **git log**: Apresenta no terminal todos os commits rralizados até o momento com a "hash", onde é salvo para o git quando é necessário retornar o código como estava antes do commit mais recente;
+* **git log**: Apresenta no terminal todos os commits realizados até o momento com a "hash", onde é salvo para o git quando é necessário retornar o código como estava antes do commit mais recente;
+
+* **git log --oneline --decorate**: Apresenta no terminal a primeira de todos os commits realizados até o momento;
 
 * **git restore**: Retorna o código para como era antes da modificação mais recente sem ter executado o git add;
 
@@ -53,4 +55,8 @@ Existem 4 tipos:
 
 * **git pull**: Coleta todas as informações que estavam no diretório remoto, compara com o diretório local e caso esteja desatualizado o local, os dados são atualizados conforme o remoto;
 
-* **git fetch**: Coleta todas as informações que estavam no diretório remoto e baixa no diretório local, mas sem inserir no código ainda. Após executar este comando, execute o git diff para validar o que está faltando no local e que será atualizado com base no remoto antes de executar o git pull.
+* **git fetch**: Coleta todas as informações que estavam no diretório remoto e baixa no diretório local, mas sem inserir no código ainda. Após executar este comando, execute o git diff para validar o que está faltando no local e que será atualizado com base no remoto antes de executar o git pull;
+
+* **git branch *nome_da_branch***: Cria uma nova branch;
+
+* **git checkout *nome_da_branch***: Acessa a branch informada;

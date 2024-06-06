@@ -2,8 +2,20 @@
 
 ## Esta é uma apostila de comandos do Git que já utilizei, e que achei interessante, junto com uma explicação do que cada um faz.
 
+### Estados do GIT
 
-### Comandos do Git:
+Antes de começarmos a falar dos comandos do Git, é necessário falar sobre os tipos de estados dos arquivos do Git.
+
+Existem 4 tipos:
+
+1. **Untracked**: É quando o arquivo ainda não foi mapeado pelo git;
+2. **Unmodified**: É quando o arquivo já foi mapeado por git, ou seja, já ocorreu commit e passou pelo estado "staged";
+3. **Modified**: É quando o arquivo foi editado e salvo;
+4. **Staged**: É quando o arquivo está pronto para receber o commit e subir no repositório remoto.
+
+##
+
+### Comandos do Git
 
 * **git init**: Inicia o git no diretório local;
 

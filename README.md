@@ -45,4 +45,6 @@ Existem 4 tipos:
 
 * **git restore**: Retorna o código para como era antes da modificação mais recente sem ter executado o git add;
 
-* **git restore --staged *nome_do_arquivo***: Retorna o código para como era antes da modificação mais recente após executar o git add.
+* **git restore --staged *nome_do_arquivo***: Retorna o código para como era antes da modificação mais recente após executar o git add;
+
+* **git status**: Retorna no terminal os estados de todos os arquivos do diretório atual.

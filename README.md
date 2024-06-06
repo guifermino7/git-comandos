@@ -1,4 +1,4 @@
-# Bootcamp Santader/AdaTech - Git/Versionamento
+# Bootcamp Santander/AdaTech - Git/Versionamento
 
 ## Esta é uma apostila de comandos do Git que já utilizei, e que achei interessante, junto com uma explicação do que cada um faz.
 

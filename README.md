@@ -60,3 +60,5 @@ Existem 4 tipos:
 * **git branch *nome_da_branch***: Cria uma nova branch;
 
 * **git checkout *nome_da_branch***: Acessa a branch informada;
+
+* **git merge *nome_da_branch***: Leva as informações da branch informada para a branch atual.

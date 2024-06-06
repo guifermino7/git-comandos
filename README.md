@@ -53,4 +53,6 @@ Existem 4 tipos:
 
 * **git pull**: Coleta todas as informações que estavam no diretório remoto, compara com o diretório local e caso esteja desatualizado o local, os dados são atualizados conforme o remoto;
 
-* **git fetch**: Coleta todas as informações que estavam no diretório remoto e baixa no diretório local, mas sem inserir no código ainda. Após executar este comando, execute o git diff para validar o que está faltando no local e que será atualizado com base no remoto antes de executar o git pull.
+* **git fetch**: Coleta todas as informações que estavam no diretório remoto e baixa no diretório local, mas sem inserir no código ainda. Após executar este comando, execute o git diff para validar o que está faltando no local e que será atualizado com base no remoto antes de executar o git pull;
+
+* **git branch**: Lista todas as branchs do diretório e diferencia a branch atual.

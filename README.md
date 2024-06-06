@@ -49,4 +49,8 @@ Existem 4 tipos:
 
 * **git status**: Retorna no terminal os estados de todos os arquivos do diretório atual;
 
-* **git status *nome_do_arquivo***: Retorna no terminal o estado do arquivo informado do diretório atual.
+* **git status *nome_do_arquivo***: Retorna no terminal o estado do arquivo informado do diretório atual;
+
+* **git pull**: Coleta todas as informações que estavam no diretório remoto, compara com o diretório local e caso esteja desatualizado o local, os dados são atualizados conforme o remoto;
+
+* **git fetch**: Coleta todas as informações que estavam no diretório remoto e baixa no diretório local, mas sem inserir no código ainda. Após executar este comando, execute o git diff para validar o que está faltando no local e que será atualizado com base no remoto antes de executar o git pull.

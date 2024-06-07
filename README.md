@@ -23,8 +23,6 @@ Existem 4 tipos:
 
 * **git config --global user.email *seu_email@email.com***: Configura o seu email para que fique salvo nos commits;
 
-* **git add README.md**: Cria o arquivo "README.md" no diretório atual;
-
 * **git branch -M main**: Cria uma branch main para subir os commits;
 
 * **git add *nome_do_arquivo***: Irá mudar o estado do arquivo de "modified" para "staged";

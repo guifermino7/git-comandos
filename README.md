@@ -25,7 +25,7 @@ Existem 4 tipos:
 
 * **git branch -M main**: Cria uma branch main para subir os commits;
 
-* **git add *nome_do_arquivo***: Irá mudar o estado do arquivo de "modified" para "staged";
+* **git add *nome_do_arquivo***: Irá mudar o estado do arquivo informado de "modified" para "staged";
 
 * **git commit -m "*mensagem*"**: Faz um commit no arquivo com a mensagem que desejar;
 
